@@ -475,6 +475,40 @@
 
         footer strong { color: var(--white); }
 
+        /* ─── VALORES GRID (Medicina General) ──────────────── */
+        .valores-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.8rem;
+            margin: 1.3rem 0 1.8rem;
+        }
+
+        .valor-item {
+            background: var(--teal-light);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .valor-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .valor-item strong {
+            display: block;
+            color: var(--teal-dark);
+            font-size: 0.88rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .valor-item p {
+            font-size: 0.8rem;
+            color: var(--ink-light);
+            margin: 0;
+            line-height: 1.4;
+        }
+
         /* ─── TABLET / DESKTOP tweaks ───────────────────────── */
         @media (min-width: 700px) {
             header { padding: 4rem 2rem 3rem; }
@@ -498,7 +532,7 @@
     <div class="hero-eyebrow">Médico · Buenos Aires</div>
     <h1>Dr. Leandro<br>Antonielli</h1>
     <div class="hero-divider"></div>
-    <p class="hero-subtitle">Medicina General y Familiar<br>Cuidados Paliativos en domicilio y por videollamada</p>
+    <p class="hero-subtitle">Medicina General y Familiar · Cuidados Paliativos<br>Atención a domicilio y por videollamada</p>
     <p class="hero-matricula">MN 166947</p>
 </header>
 
@@ -513,8 +547,11 @@
     <button class="nav-btn" data-section="a-quienes">
         <span class="nav-icon">👥</span>¿A quiénes?
     </button>
+    <button class="nav-btn" data-section="medicina-general">
+        <span class="nav-icon">🏥</span>Medicina
+    </button>
     <button class="nav-btn" data-section="competencias">
-        <span class="nav-icon">🩺</span>¿Qué hacemos?
+        <span class="nav-icon">🩺</span>Paliativos
     </button>
     <button class="nav-btn" data-section="contacto">
         <span class="nav-icon">📞</span>Contacto
@@ -651,6 +688,116 @@
                     <p>El cuidado no termina con el fallecimiento. Seguimos cerca de la familia para ayudar a transitar el duelo.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- MEDICINA GENERAL Y FAMILIAR -->
+    <section id="medicina-general" class="section">
+        <h2 class="section-title">Medicina General y Familiar<span></span></h2>
+
+        <div class="profile-card">
+            <div class="profile-tag">Atención a domicilio y virtual</div>
+            <p>La Medicina General y Familiar cuida a las personas durante <strong>todas las etapas de la vida</strong>, con continuidad en el tiempo y una mirada que va más allá del síntoma: incorpora la historia, la familia, el contexto y los determinantes sociales de cada persona.</p>
+        </div>
+
+        <p>No es solo "el médico de cabecera". Es una especialidad que trabaja con <strong>toda la trama de la vida</strong> de una persona, articulando recursos del sistema de salud, la comunidad y la familia para un cuidado verdaderamente integral.</p>
+
+        <div class="valores-grid">
+            <div class="valor-item">
+                <div class="valor-icon">⚖️</div>
+                <strong>Equidad y derecho a la salud</strong>
+                <p>Cuidado accesible para todas las personas, reconociendo las desigualdades que afectan la salud.</p>
+            </div>
+            <div class="valor-item">
+                <div class="valor-icon">🔍</div>
+                <strong>Clínica ampliada</strong>
+                <p>No solo el diagnóstico: el contexto vital, la familia y el entorno. La persona completa, en su singularidad.</p>
+            </div>
+            <div class="valor-item">
+                <div class="valor-icon">🔄</div>
+                <strong>Continuidad en el tiempo</strong>
+                <p>Seguimiento longitudinal a lo largo de los años, no consultas aisladas. Alguien que te conoce.</p>
+            </div>
+            <div class="valor-item">
+                <div class="valor-icon">🤝</div>
+                <strong>Trabajo en red</strong>
+                <p>Articulación con especialistas, equipos de salud y recursos comunitarios para una atención sin baches.</p>
+            </div>
+        </div>
+
+        <div class="info-chips">
+            <span class="chip">👶 Niños y niñas</span>
+            <span class="chip">🤰 Embarazadas</span>
+            <span class="chip">🌸 Salud sexual y ginecológica</span>
+            <span class="chip">🧑 Adultos</span>
+            <span class="chip">👴 Adultos mayores</span>
+            <span class="chip">🏠 Domicilio</span>
+            <span class="chip">📹 Videollamada</span>
+        </div>
+
+        <h3>¿Qué incluye la atención?</h3>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">👶</div>
+                <div class="card-body">
+                    <h4>Pediatría y control del niño sano</h4>
+                    <p>Seguimiento del crecimiento y desarrollo, vacunas, consultas frecuentes y orientación a la familia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🤰</div>
+                <div class="card-body">
+                    <h4>Control de embarazo</h4>
+                    <p>Acompañamiento durante la gestación, coordinación con obstetras y preparación para el parto y el puerperio.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🌸</div>
+                <div class="card-body">
+                    <h4>Salud sexual y reproductiva</h4>
+                    <p>Anticoncepción, ITS, papanicolaou, menopausia y acompañamiento integral de la salud ginecológica.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">💊</div>
+                <div class="card-body">
+                    <h4>Enfermedades crónicas</h4>
+                    <p>Seguimiento de diabetes, hipertensión, dislipemia, tiroides, EPOC y otras condiciones a lo largo del tiempo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔬</div>
+                <div class="card-body">
+                    <h4>Prevención y chequeos</h4>
+                    <p>Controles periódicos, solicitud de estudios, interpretación de resultados y planes de prevención personalizados.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">👴</div>
+                <div class="card-body">
+                    <h4>Adultos mayores</h4>
+                    <p>Valoración integral, polifarmacia, caídas, cognición y coordinación con cuidadores y familia.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🧠</div>
+                <div class="card-body">
+                    <h4>Salud mental y emocional</h4>
+                    <p>Primera escucha, manejo de ansiedad, depresión e insomnio, y articulación con salud mental cuando se necesita.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔗</div>
+                <div class="card-body">
+                    <h4>Coordinación con especialistas</h4>
+                    <p>Indicación, derivación y seguimiento de interconsultas, para que nada quede sin resolución.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="callout" style="margin-top: 1.5rem;">
+            <div class="callout-icon">💡</div>
+            <p>El médico generalista no reemplaza a los especialistas: los <strong>articula y acompaña</strong>. Conoce tu historia, tu familia y tu contexto. Eso hace la diferencia.</p>
         </div>
     </section>
 
