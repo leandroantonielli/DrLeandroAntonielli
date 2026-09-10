@@ -1,912 +1,1317 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Leandro Antonielli · Cuidados Paliativos</title>
-<!-- SEO Meta Tags -->
-<meta name="description" content="Dr. Leandro Antonielli · MN 166947. Médico Especialista en Medicina General y Familiar y Cuidados Paliativos. Atención a domicilio y por videollamada en Buenos Aires.">
+<title>Dr. Leandro Antonielli | Cuidados Paliativos y Medicina Familiar en CABA</title>
+<meta name="description" content="Médico de familia y cuidados paliativos en CABA. Atención a domicilio y por videollamada en todo el país. MN 166947. Escribime por WhatsApp.">
 <meta name="theme-color" content="#1B4F4E">
-<!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
-<meta property="og:title" content="Dr. Leandro Antonielli · Cuidados Paliativos">
-<meta property="og:description" content="Medicina General y Familiar · Cuidados Paliativos. Atención a domicilio y por videollamada en Buenos Aires.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Dr. Leandro Antonielli">
+<link rel="canonical" href="https://leandroantonielli.github.io/DrLeandroAntonielliCP/">
+<meta property="og:title" content="Dr. Leandro Antonielli | Cuidados Paliativos y Medicina Familiar en CABA">
+<meta property="og:description" content="Médico de familia y cuidados paliativos en CABA. Atención a domicilio y por videollamada en todo el país. MN 166947.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_AR">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dr. Leandro Antonielli · Cuidados Paliativos">
-<meta name="twitter:description" content="Medicina General y Familiar · Cuidados Paliativos. Atención a domicilio y por videollamada.">
-<!-- Favicon SVG -->
+<meta property="og:url" content="https://leandroantonielli.github.io/DrLeandroAntonielliCP/">
+<meta property="og:image" content="https://leandroantonielli.github.io/DrLeandroAntonielliCP/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dr. Leandro Antonielli | Cuidados Paliativos y Medicina Familiar en CABA">
+<meta name="twitter:description" content="Médico de familia y cuidados paliativos en CABA. Domicilio y videollamada. MN 166947.">
+<meta name="twitter:image" content="https://leandroantonielli.github.io/DrLeandroAntonielliCP/img/og.jpg">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💚</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Physician",
+      "@id": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/#medico",
+      "name": "Dr. Leandro Antonielli",
+      "image": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/img/leandro.jpg",
+      "telephone": "+541130201708",
+      "email": "leandroantonielli@gmail.com",
+      "url": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ciudad Autónoma de Buenos Aires",
+        "addressRegion": "CABA",
+        "addressCountry": "AR"
+      },
+      "medicalSpecialty": [
+        "Medicina General y Familiar",
+        "Cuidados Paliativos"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "Matrícula Nacional",
+        "value": "MN 166947"
+      },
+      "alumniOf": [
+        { "@type": "CollegeOrUniversity", "name": "Universidad de Buenos Aires" },
+        { "@type": "EducationalOrganization", "name": "FLACSO" }
+      ]
+    },
+    {
+      "@type": "MedicalBusiness",
+      "@id": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/#consultorio",
+      "name": "Dr. Leandro Antonielli",
+      "image": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/img/og.jpg",
+      "telephone": "+541130201708",
+      "email": "leandroantonielli@gmail.com",
+      "url": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ciudad Autónoma de Buenos Aires",
+        "addressCountry": "AR"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Ciudad Autónoma de Buenos Aires"
+      },
+      "medicalSpecialty": [
+        "Medicina General y Familiar",
+        "Cuidados Paliativos"
+      ],
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "Matrícula Nacional",
+        "value": "MN 166947"
+      },
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "name": "WhatsApp",
+          "serviceUrl": "https://wa.me/5491130201708",
+          "availableLanguage": "es-AR"
+        },
+        {
+          "@type": "ServiceChannel",
+          "name": "Videollamada",
+          "availableLanguage": "es-AR"
+        }
+      ],
+      "employee": { "@id": "https://leandroantonielli.github.io/DrLeandroAntonielliCP/#medico" }
+    }
+  ]
+}
+</script>
 <style>
 :root {
---teal-dark:   #1B4F4E;
---teal-mid:    #2A7B7A;
---teal-light:  #E8F4F4;
---amber:       #C8865A;
---amber-light: #F5E8DC;
---parchment:   #FAF6EE;
---parchment-2: #F2EBE0;
---ink:         #2C2C2C;
---ink-light:   #5A5A5A;
---white:       #FFFFFF;
---nav-h:       64px;
+  --teal-dark: #1B4F4E;
+  --teal-mid: #2A7B7A;
+  --teal-light: #E8F4F4;
+  --amber: #C8865A;
+  --amber-light: #F5E8DC;
+  --parchment: #FAF6EE;
+  --parchment-2: #F2EBE0;
+  --ink: #2C2C2C;
+  --ink-light: #5A5A5A;
+  --white: #FFFFFF;
+  --nav-h: 64px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --shadow: 0 2px 10px rgba(27, 79, 78, 0.07);
+  --shadow-hover: 0 6px 20px rgba(27, 79, 78, 0.12);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 12px;
+}
 body {
-background: var(--parchment);
-color: var(--ink);
-font-family: 'Inter', sans-serif;
-line-height: 1.65;
-padding-bottom: calc(var(--nav-h) + 12px);
+  background: var(--parchment);
+  color: var(--ink);
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.65;
+  padding-bottom: calc(var(--nav-h) + env(safe-area-inset-bottom, 0px) + 88px);
 }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--teal-mid); }
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  z-index: 400;
+  background: var(--white);
+  color: var(--teal-dark);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: 12px; }
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1.15rem;
+}
+
 /* ─── HERO ─────────────────────────────────────────── */
-header {
-background: var(--teal-dark);
-color: var(--white);
-padding: 3.5rem 1.5rem 2.5rem;
-text-align: center;
-position: relative;
-overflow: hidden;
-animation: fadeUp 0.6s ease both;
+.hero {
+  background: var(--teal-dark);
+  color: var(--white);
+  padding: 1.35rem 0 1.6rem;
+  position: relative;
+  overflow: hidden;
 }
-header::before {
-content: '';
-position: absolute;
-top: -40px; right: -60px;
-width: 260px; height: 260px;
-border-radius: 50%;
-background: var(--teal-mid);
-opacity: 0.3;
+.hero::before,
+.hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
 }
-header::after {
-content: '';
-position: absolute;
-bottom: -50px; left: -40px;
-width: 180px; height: 180px;
-border-radius: 50%;
-background: var(--amber);
-opacity: 0.18;
+.hero::before {
+  top: -48px; right: -70px;
+  width: 220px; height: 220px;
+  background: var(--teal-mid);
+  opacity: 0.32;
 }
+.hero::after {
+  bottom: -60px; left: -50px;
+  width: 160px; height: 160px;
+  background: var(--amber);
+  opacity: 0.16;
+}
+.hero-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.avatar {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--teal-mid);
+  overflow: hidden;
+  border: 2px solid rgba(245, 232, 220, 0.5);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-copy { min-width: 0; }
 .hero-eyebrow {
-font-size: 0.75rem;
-font-weight: 600;
-letter-spacing: 0.14em;
-text-transform: uppercase;
-color: var(--amber);
-margin-bottom: 0.9rem;
-position: relative;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #F5E8DC;
+  margin-bottom: 0.28rem;
 }
-header h1 {
-font-family: 'Playfair Display', Georgia, serif;
-font-size: clamp(2rem, 7vw, 3.2rem);
-font-weight: 700;
-line-height: 1.1;
-margin-bottom: 1rem;
-position: relative;
-}
-.hero-divider {
-width: 52px; height: 3px;
-background: var(--amber);
-border-radius: 2px;
-margin: 0 auto 1rem;
+.hero h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.42rem, 5.6vw, 2.05rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
 }
 .hero-subtitle {
-font-size: 1rem;
-font-weight: 300;
-opacity: 0.88;
-max-width: 360px;
-margin: 0 auto 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #E8F4F4;
+  margin-bottom: 0.15rem;
+}
+.hero-line {
+  font-size: 0.86rem;
+  color: #E8F4F4;
+  margin-bottom: 0.35rem;
 }
 .hero-matricula {
-font-size: 0.8rem;
-opacity: 0.6;
-margin-top: 0.6rem;
-letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.72);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.65rem;
 }
-/* ─── BOTTOM NAV (mobile) ───────────────────────────── */
-nav {
-position: fixed;
-bottom: 0; left: 0; right: 0;
-height: var(--nav-h);
-background: var(--teal-dark);
-display: flex;
-justify-content: space-around;
-align-items: stretch;
-z-index: 200;
-box-shadow: 0 -2px 16px rgba(0,0,0,0.18);
-overflow-x: auto;
--webkit-overflow-scrolling: touch;
-scrollbar-width: none;
+.coverage-chip {
+  display: inline-block;
+  background: var(--teal-light);
+  color: var(--teal-dark);
+  border-radius: 999px;
+  padding: 0.32rem 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.85rem;
+  max-width: 100%;
 }
-nav::-webkit-scrollbar { display: none; }
-.nav-btn {
-flex: 0 0 auto;
-min-width: 68px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 3px;
-background: none;
-border: none;
-color: rgba(255,255,255,0.5);
-font-family: 'Inter', sans-serif;
-font-size: 0.58rem;
-font-weight: 500;
-letter-spacing: 0.02em;
-cursor: pointer;
-transition: color 0.2s;
-padding: 6px 4px;
--webkit-tap-highlight-color: transparent;
-position: relative;
+.hero-actions { margin-top: 0.15rem; }
+.btn-wa {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 44px;
+  background: var(--white);
+  color: var(--teal-dark);
+  border: none;
+  border-radius: 12px;
+  padding: 0.7rem 1.15rem;
+  font-family: Inter, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
-.nav-btn .nav-icon {
-font-size: 1.3rem;
-line-height: 1;
+.btn-wa:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22); }
+.btn-wa svg { width: 18px; height: 18px; flex-shrink: 0; }
+.btn-wa-solid {
+  background: var(--teal-dark);
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(27, 79, 78, 0.25);
 }
-.nav-btn.active { color: var(--white); }
-.nav-btn.active .nav-icon {
-filter: drop-shadow(0 0 6px rgba(200,134,90,0.7));
-}
-.nav-btn.active::after {
-content: '';
-position: absolute;
-bottom: 0; left: 50%;
-transform: translateX(-50%);
-width: 24px; height: 3px;
-background: var(--amber);
-border-radius: 2px 2px 0 0;
-}
-/* ─── DESKTOP NAV ───────────────────────────────────── */
-@media (min-width: 700px) {
-body { padding-bottom: 0; }
-nav {
-position: sticky;
-top: 0; bottom: auto;
-height: auto;
-background: var(--white);
-box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-justify-content: center;
-padding: 0.6rem 1rem;
-gap: 0.4rem;
-overflow-x: visible;
+.btn-wa-solid:hover { box-shadow: 0 6px 20px rgba(27, 79, 78, 0.35); }
+
+/* ─── NAV ──────────────────────────────────────────── */
+.site-nav {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  height: calc(var(--nav-h) + env(safe-area-inset-bottom, 0px));
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: var(--teal-dark);
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  z-index: 200;
+  box-shadow: 0 -2px 16px rgba(0, 0, 0, 0.18);
 }
 .nav-btn {
-flex: none;
-min-width: auto;
-flex-direction: row;
-gap: 6px;
-color: var(--ink-light);
-font-size: 0.88rem;
-padding: 0.5rem 1rem;
-border-radius: 8px;
-transition: background 0.2s, color 0.2s;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: Inter, sans-serif;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  padding: 6px 2px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
 }
-.nav-btn .nav-icon { font-size: 1rem; }
-.nav-btn:hover { background: var(--teal-light); color: var(--teal-dark); }
-.nav-btn.active { background: var(--teal-dark); color: var(--white); }
-.nav-btn.active::after { display: none; }
+.nav-btn .nav-icon { font-size: 1.2rem; line-height: 1; }
+.nav-btn[aria-current="true"] { color: var(--white); }
+.nav-btn[aria-current="true"]::after {
+  content: "";
+  position: absolute;
+  bottom: env(safe-area-inset-bottom, 0px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 22px; height: 3px;
+  background: var(--amber);
+  border-radius: 2px 2px 0 0;
 }
-/* ─── MAIN / SECTIONS ───────────────────────────────── */
-main {
-max-width: 700px;
-margin: 0 auto;
-padding: 1.5rem 1rem;
+.nav-label-lg { display: none; }
+
+/* ─── SECTIONS ─────────────────────────────────────── */
+.section {
+  padding: 2.2rem 0 1.4rem;
+  scroll-margin-top: 16px;
 }
-.section { display: none; animation: fadeUp 0.35s ease both; }
-.section.active { display: block; }
-@keyframes fadeUp {
-from { opacity: 0; transform: translateY(14px); }
-to   { opacity: 1; transform: translateY(0); }
-}
-/* ─── SECTION TITLE ─────────────────────────────────── */
+.section.alt { background: var(--parchment-2); }
 .section-title {
-font-family: 'Playfair Display', Georgia, serif;
-font-size: clamp(1.6rem, 5vw, 2.2rem);
-color: var(--teal-dark);
-margin-bottom: 1.4rem;
-line-height: 1.2;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.55rem, 4.8vw, 2.15rem);
+  color: var(--teal-dark);
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
 }
 .section-title span {
-display: block;
-width: 40px; height: 3px;
-background: var(--amber);
-border-radius: 2px;
-margin-top: 0.5rem;
+  display: block;
+  width: 40px; height: 3px;
+  background: var(--amber);
+  border-radius: 2px;
+  margin-top: 0.5rem;
 }
-/* ─── PROSE ─────────────────────────────────────────── */
-.section > p, .section-body p {
-color: var(--ink-light);
-font-size: 1rem;
-margin-bottom: 0.9rem;
+.section-kicker {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 0.35rem;
 }
-.section > p strong, .section-body p strong { color: var(--ink); font-weight: 600; }
-.section ul {
-list-style: none;
-margin: 0 0 1rem;
+.prose p {
+  color: var(--ink-light);
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
 }
-.section ul li {
-display: flex;
-gap: 0.75rem;
-align-items: flex-start;
-padding: 0.5rem 0;
-border-bottom: 1px solid var(--parchment-2);
-color: var(--ink-light);
-font-size: 0.97rem;
+.prose p strong { color: var(--ink); font-weight: 600; }
+.prose ul {
+  list-style: none;
+  margin: 0 0 1rem;
 }
-.section ul li::before {
-content: '◆';
-color: var(--amber);
-font-size: 0.55rem;
-margin-top: 0.48rem;
-flex-shrink: 0;
+.prose ul li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--parchment-2);
+  color: var(--ink-light);
+  font-size: 0.97rem;
 }
-/* ─── SECTION H3 ────────────────────────────────────── */
+.section.alt .prose ul li { border-bottom-color: rgba(27, 79, 78, 0.08); }
+.prose ul li::before {
+  content: "◆";
+  color: var(--amber);
+  font-size: 0.55rem;
+  margin-top: 0.48rem;
+  flex-shrink: 0;
+}
 .section h3 {
-font-family: 'Playfair Display', Georgia, serif;
-font-size: 1.2rem;
-color: var(--teal-dark);
-margin: 1.6rem 0 0.6rem;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.22rem;
+  color: var(--teal-dark);
+  margin: 1.5rem 0 0.65rem;
 }
-/* ─── CALLOUT ───────────────────────────────────────── */
+
+/* ─── CALLOUT / CARDS / CHIPS ──────────────────────── */
 .callout {
-background: var(--amber-light);
-border-left: 4px solid var(--amber);
-border-radius: 0 10px 10px 0;
-padding: 1.2rem 1.4rem;
-margin: 1.5rem 0;
+  background: var(--amber-light);
+  border-left: 4px solid var(--amber);
+  border-radius: 0 12px 12px 0;
+  padding: 1.15rem 1.3rem;
+  margin: 1.35rem 0;
 }
-.callout p {
-margin: 0;
-color: #4A2E1A;
-font-size: 0.97rem;
-}
-.callout .callout-icon {
-font-size: 1.4rem;
-margin-bottom: 0.4rem;
-}
-/* ─── CTA DENTRO DE CALLOUT ─────────────────────────── */
-.callout-cta {
-text-align: center;
-}
-.callout-cta p { margin-bottom: 0.8rem; }
-.cta-wa-btn {
-display: inline-flex;
-align-items: center;
-gap: 0.7rem;
-background: var(--teal-dark);
-color: var(--white);
-border: none;
-border-radius: 12px;
-padding: 0.85rem 1.4rem;
-font-family: 'Inter', sans-serif;
-font-size: 0.95rem;
-font-weight: 600;
-cursor: pointer;
-text-decoration: none;
-transition: transform 0.2s, box-shadow 0.2s;
-box-shadow: 0 4px 14px rgba(27,79,78,0.25);
-}
-.cta-wa-btn:hover {
-transform: translateY(-2px);
-box-shadow: 0 6px 20px rgba(27,79,78,0.35);
-}
-.cta-wa-btn .cta-icon { font-size: 1.2rem; }
-/* ─── PROFILE CARD ──────────────────────────────────── */
+.callout p { margin: 0; color: #4A2E1A; font-size: 0.97rem; }
+.callout .callout-icon { font-size: 1.35rem; margin-bottom: 0.35rem; }
+.callout-cta { text-align: center; }
+.callout-cta p { margin-bottom: 0.85rem; }
 .profile-card {
-background: var(--teal-dark);
-color: var(--white);
-border-radius: 16px;
-padding: 2rem 1.5rem;
-margin-bottom: 1.5rem;
-position: relative;
-overflow: hidden;
+  background: var(--teal-dark);
+  color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1.7rem 1.4rem;
+  margin-bottom: 1.4rem;
+  position: relative;
+  overflow: hidden;
 }
 .profile-card::before {
-content: '\201C';
-font-family: 'Playfair Display', Georgia, serif;
-font-size: 8rem;
-color: rgba(255,255,255,0.07);
-position: absolute;
-top: -1rem; left: 0.5rem;
-line-height: 1;
-pointer-events: none;
+  content: "\201C";
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 7.5rem;
+  color: rgba(255, 255, 255, 0.07);
+  position: absolute;
+  top: -1rem; left: 0.4rem;
+  line-height: 1;
+  pointer-events: none;
 }
 .profile-card p {
-color: rgba(255,255,255,0.88);
-font-size: 1rem;
-margin-bottom: 0;
-position: relative;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.02rem;
+  position: relative;
 }
 .profile-tag {
-display: inline-block;
-background: var(--amber);
-color: var(--white);
-font-size: 0.72rem;
-font-weight: 600;
-letter-spacing: 0.08em;
-text-transform: uppercase;
-border-radius: 4px;
-padding: 0.2rem 0.6rem;
-margin-bottom: 0.8rem;
+  display: inline-block;
+  background: var(--amber);
+  color: var(--white);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 0.2rem 0.6rem;
+  margin-bottom: 0.8rem;
 }
-/* ─── CHIPS ─────────────────────────────────────────── */
 .info-chips {
-display: flex;
-flex-wrap: wrap;
-gap: 0.6rem;
-margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 0;
 }
 .chip {
-background: var(--teal-light);
-color: var(--teal-dark);
-border-radius: 20px;
-padding: 0.35rem 0.9rem;
-font-size: 0.82rem;
-font-weight: 500;
+  background: var(--teal-light);
+  color: var(--teal-dark);
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 500;
 }
-/* ─── CARDS ─────────────────────────────────────────── */
 .cards-grid {
-display: grid;
-gap: 0.9rem;
-margin-top: 0.5rem;
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 0.4rem;
 }
 .card {
-background: var(--white);
-border-radius: 12px;
-padding: 1.2rem 1.3rem;
-box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-display: flex;
-gap: 1rem;
-align-items: flex-start;
-transition: transform 0.2s, box-shadow 0.2s;
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1.15rem 1.2rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  gap: 0.95rem;
+  align-items: flex-start;
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
-.card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.10); }
+.card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
 .card-icon {
-font-size: 1.6rem;
-width: 40px;
-text-align: center;
-flex-shrink: 0;
-margin-top: 2px;
+  font-size: 1.5rem;
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 2px;
 }
 .card-body h4 {
-font-weight: 600;
-color: var(--teal-dark);
-font-size: 0.97rem;
-margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: var(--teal-dark);
+  font-size: 0.97rem;
+  margin-bottom: 0.28rem;
 }
 .card-body p {
-margin: 0;
-color: var(--ink-light);
-font-size: 0.9rem;
-line-height: 1.55;
+  margin: 0;
+  color: var(--ink-light);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
-/* ─── VALORES GRID ──────────────────────────────────── */
 .valores-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 0.8rem;
-margin: 1.3rem 0 1.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 1.2rem 0 1.6rem;
 }
 .valor-item {
-background: var(--teal-light);
-border-radius: 12px;
-padding: 1rem;
-text-align: center;
+  background: var(--teal-light);
+  border-radius: 12px;
+  padding: 1rem 0.75rem;
+  text-align: center;
 }
-.valor-icon { font-size: 1.5rem; margin-bottom: 0.3rem; }
+.valor-icon { font-size: 1.4rem; margin-bottom: 0.3rem; }
 .valor-item strong {
-display: block;
-color: var(--teal-dark);
-font-size: 0.88rem;
-margin-bottom: 0.3rem;
+  display: block;
+  color: var(--teal-dark);
+  font-size: 0.86rem;
+  margin-bottom: 0.3rem;
 }
 .valor-item p {
-font-size: 0.8rem;
-color: var(--ink-light);
-margin: 0;
-line-height: 1.4;
+  font-size: 0.78rem;
+  color: var(--ink-light);
+  margin: 0;
+  line-height: 1.4;
 }
-/* ─── CONTACTO ──────────────────────────────────────── */
+.service-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  background: var(--teal-light);
+  border: 1.5px solid var(--teal-mid);
+  border-radius: 12px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 1.4rem;
+}
+.badge-icon { font-size: 1.7rem; flex-shrink: 0; }
+.service-badge strong {
+  display: block;
+  color: var(--teal-dark);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.service-badge span { font-size: 0.8rem; color: var(--ink-light); }
+
+/* ─── PALIATIVOS JUMP TABS ─────────────────────────── */
+.tabs-nav {
+  display: none;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: var(--parchment);
+  padding: 0.4rem;
+  border-radius: 14px;
+}
+.tab-link {
+  flex: 1 1 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.75rem 0.6rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--ink-light);
+  transition: background 0.2s, color 0.2s;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.tab-link:hover { color: var(--teal-dark); background: rgba(255, 255, 255, 0.7); }
+.tab-link.is-active {
+  background: var(--white);
+  color: var(--teal-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.pal-block {
+  scroll-margin-top: 88px;
+  margin-bottom: 2rem;
+}
+.pal-block:last-child { margin-bottom: 0; }
+
+/* ─── STEPS ────────────────────────────────────────── */
+.steps {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0.4rem 0 1.4rem;
+  list-style: none;
+  counter-reset: paso;
+}
+.steps li {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 1.1rem 1.15rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  gap: 0.95rem;
+  align-items: flex-start;
+  counter-increment: paso;
+}
+.step-num {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  background: var(--teal-dark);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+.steps h3 {
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.15rem 0 0.25rem;
+}
+.steps p { margin: 0; color: var(--ink-light); font-size: 0.9rem; }
+.honorarios {
+  font-size: 0.92rem;
+  color: var(--ink-light);
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+  box-shadow: var(--shadow);
+}
+
+/* ─── FAQ ──────────────────────────────────────────── */
+.faq-list { display: grid; gap: 0.7rem; }
+.faq {
+  background: var(--white);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--teal-dark);
+  padding: 1rem 1.15rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  min-height: 48px;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: "+";
+  color: var(--amber);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.faq[open] summary::after { content: "–"; }
+.faq .faq-a {
+  padding: 0 1.15rem 1.1rem;
+  color: var(--ink-light);
+  font-size: 0.95rem;
+}
+
+/* ─── CONTACT ──────────────────────────────────────── */
+.lead { color: var(--ink-light); margin-bottom: 1.1rem; }
 .contact-stack {
-display: flex;
-flex-direction: column;
-gap: 0.9rem;
-margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 0.4rem;
 }
 .contact-btn {
-display: flex;
-align-items: center;
-gap: 1.1rem;
-text-decoration: none;
-background: var(--white);
-border-radius: 14px;
-padding: 1.1rem 1.3rem;
-box-shadow: 0 2px 10px rgba(0,0,0,0.07);
-transition: transform 0.2s, box-shadow 0.2s;
-color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  background: var(--white);
+  border-radius: 14px;
+  padding: 1.05rem 1.2rem;
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  min-height: 72px;
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
-.contact-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 22px rgba(0,0,0,0.12); }
+.contact-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
 .contact-btn .cb-icon {
-width: 48px; height: 48px;
-border-radius: 12px;
-display: flex; align-items: center; justify-content: center;
-font-size: 1.4rem;
-flex-shrink: 0;
+  width: 48px; height: 48px;
+  border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.35rem;
+  flex-shrink: 0;
+  background: var(--teal-light);
 }
-.cb-blue  { background: #E8EFFE; }
-.cb-amber { background: var(--amber-light); }
+.cb-amber { background: var(--amber-light) !important; }
 .contact-btn .cb-body strong {
-display: block;
-font-size: 0.95rem;
-color: var(--teal-dark);
-font-weight: 600;
+  display: block;
+  font-size: 0.95rem;
+  color: var(--teal-dark);
+  font-weight: 600;
 }
 .contact-btn .cb-body span {
-font-size: 0.85rem;
-color: var(--ink-light);
+  font-size: 0.85rem;
+  color: var(--ink-light);
 }
 .contact-btn.primary { background: var(--teal-dark); }
 .contact-btn.primary .cb-body strong { color: var(--white); }
-.contact-btn.primary .cb-body span   { color: rgba(255,255,255,0.75); }
-/* ─── SERVICE BADGE ─────────────────────────────────── */
-.service-badge {
-display: flex;
-align-items: center;
-gap: 0.9rem;
-background: var(--teal-light);
-border: 1.5px solid var(--teal-mid);
-border-radius: 12px;
-padding: 0.9rem 1.1rem;
-margin-bottom: 1.6rem;
+.contact-btn.primary .cb-body span { color: rgba(255, 255, 255, 0.82); }
+.contact-btn.primary .cb-icon { background: rgba(255, 255, 255, 0.12); }
+.video-line {
+  margin-top: 1.1rem;
+  color: var(--teal-dark);
+  font-weight: 500;
+  font-size: 0.95rem;
 }
-.badge-icon { font-size: 1.8rem; flex-shrink: 0; }
-.service-badge strong {
-display: block;
-color: var(--teal-dark);
-font-size: 0.9rem;
-font-weight: 600;
-}
-.service-badge span {
-font-size: 0.8rem;
-color: var(--ink-light);
-}
-/* ═══ TABS INTERNOS (Cuidados Paliativos) ════════════ */
-.tabs-nav {
-display: flex;
-gap: 0.5rem;
-margin-bottom: 1.5rem;
-background: var(--parchment-2);
-padding: 0.4rem;
-border-radius: 14px;
-overflow-x: auto;
-scrollbar-width: none;
--webkit-overflow-scrolling: touch;
-}
-.tabs-nav::-webkit-scrollbar { display: none; }
-.tab-btn {
-flex: 1 1 0;
-min-width: 110px;
-background: transparent;
-border: none;
-border-radius: 10px;
-padding: 0.8rem 0.6rem;
-font-family: 'Inter', sans-serif;
-font-size: 0.82rem;
-font-weight: 600;
-color: var(--ink-light);
-cursor: pointer;
-transition: all 0.25s;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 0.3rem;
--webkit-tap-highlight-color: transparent;
-white-space: nowrap;
-}
-.tab-btn .tab-icon {
-font-size: 1.2rem;
-line-height: 1;
-}
-.tab-btn:hover {
-color: var(--teal-dark);
-background: rgba(255,255,255,0.6);
-}
-.tab-btn.active {
-background: var(--white);
-color: var(--teal-dark);
-box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-.tab-btn.active .tab-icon {
-filter: drop-shadow(0 0 4px rgba(200,134,90,0.5));
-}
-.tab-panel {
-display: none;
-animation: fadeUp 0.3s ease both;
-}
-.tab-panel.active { display: block; }
 
+/* ─── FAB ──────────────────────────────────────────── */
+.fab {
+  position: fixed;
+  right: 16px;
+  bottom: calc(var(--nav-h) + env(safe-area-inset-bottom, 0px) + 18px);
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  background: var(--teal-dark);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 20px rgba(27, 79, 78, 0.35);
+  z-index: 150;
+  text-decoration: none;
+}
+.fab svg { width: 26px; height: 26px; }
+.fab:hover { background: var(--teal-mid); }
+
+/* ─── FOOTER ───────────────────────────────────────── */
+.site-footer {
+  background: var(--teal-dark);
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  padding: 2rem 1.15rem calc(1.4rem + env(safe-area-inset-bottom, 0px));
+  font-size: 0.85rem;
+}
+.site-footer strong { color: var(--white); }
+.site-footer p + p { margin-top: 0.25rem; }
+.legal { margin-top: 0.7rem; font-size: 0.78rem; color: rgba(255, 255, 255, 0.58); }
+
+/* ─── DESKTOP ──────────────────────────────────────── */
 @media (min-width: 700px) {
-.tabs-nav {
-gap: 0.6rem;
-padding: 0.5rem;
+  body { padding-bottom: 0; }
+  .hero { padding: 2.6rem 0 2.4rem; }
+  .hero-inner {
+    gap: 2.2rem;
+    align-items: center;
+  }
+  .avatar { width: 168px; height: 168px; border-width: 3px; }
+  .hero h1 {
+    font-size: clamp(2.2rem, 3.4vw, 3.05rem);
+    white-space: nowrap;
+    margin-bottom: 0.55rem;
+  }
+  .hero-eyebrow { font-size: 0.75rem; margin-bottom: 0.55rem; }
+  .hero-subtitle { font-size: 1.05rem; }
+  .hero-line { font-size: 0.98rem; }
+  .coverage-chip { font-size: 0.8rem; padding: 0.4rem 0.9rem; }
+  .site-nav {
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    height: auto;
+    padding: 0.55rem 1rem;
+    background: var(--white);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    justify-content: center;
+    gap: 0.35rem;
+  }
+  .nav-btn {
+    flex: none;
+    min-width: auto;
+    flex-direction: row;
+    gap: 6px;
+    color: var(--ink-light);
+    font-size: 0.88rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  .nav-btn .nav-icon { font-size: 1rem; }
+  .nav-btn:hover { background: var(--teal-light); color: var(--teal-dark); }
+  .nav-btn[aria-current="true"] {
+    background: var(--teal-dark);
+    color: var(--white);
+  }
+  .nav-btn[aria-current="true"]::after { display: none; }
+  .nav-label-sm { display: none; }
+  .nav-label-lg { display: inline; }
+  html { scroll-padding-top: 88px; }
+  .section { padding: 3.15rem 0 2.1rem; scroll-margin-top: 88px; }
+  .cards-grid { grid-template-columns: 1fr 1fr; }
+  .contact-stack { display: grid; grid-template-columns: 1fr 1fr; }
+  .contact-btn.primary { grid-column: 1 / -1; }
+  .tabs-nav { display: flex; }
+  .pal-block { scroll-margin-top: 104px; }
+  .fab { display: none; }
+  .steps { grid-template-columns: 1fr 1fr; }
+  .site-footer { padding-bottom: 2rem; }
 }
-.tab-btn {
-flex-direction: row;
-justify-content: center;
-padding: 0.9rem 1.2rem;
-font-size: 0.92rem;
+@media (min-width: 960px) {
+  .wrap { padding: 0 1.5rem; }
 }
-.tab-btn .tab-icon { font-size: 1.1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
-/* ─── FOOTER ────────────────────────────────────────── */
-footer {
-background: var(--teal-dark);
-color: rgba(255,255,255,0.65);
-text-align: center;
-padding: 2rem 1rem;
-margin-top: 2rem;
-font-size: 0.85rem;
-}
-footer strong { color: var(--white); }
-/* ─── TABLET / DESKTOP ──────────────────────────────── */
-@media (min-width: 700px) {
-header { padding: 4rem 2rem 3rem; }
-main { padding: 2.5rem 1.5rem; }
-.cards-grid { grid-template-columns: 1fr 1fr; }
-.contact-stack { display: grid; grid-template-columns: 1fr 1fr; }
-}
-/* ─── PRINT ─────────────────────────────────────────── */
+
 @media print {
-nav, footer { display: none; }
-.section { display: block !important; page-break-inside: avoid; }
-.tab-panel { display: block !important; }
-body { padding-bottom: 0; }
-header { background: white; color: black; }
-header::before, header::after { display: none; }
+  .site-nav, .fab, .skip-link { display: none; }
+  body { padding-bottom: 0; }
+  .hero { background: white; color: black; }
+  .hero::before, .hero::after { display: none; }
+  .section { break-inside: avoid; }
 }
 </style>
 </head>
 <body>
-<!-- ═══ HERO ═══════════════════════════════════════════════ -->
-<header>
-<div class="hero-eyebrow">Médico · Buenos Aires</div>
-<h1>Dr. Leandro<br>Antonielli</h1>
-<div class="hero-divider"></div>
-<p class="hero-subtitle">Medicina General y Familiar · Cuidados Paliativos<br>Atención a domicilio y por videollamada</p>
-<p class="hero-matricula">MN 166947</p>
-</header>
-<!-- ═══ NAV ════════════════════════════════════════════════ -->
-<nav>
-<button class="nav-btn active" data-section="quien-soy" aria-label="Quién soy">
-<span class="nav-icon" aria-hidden="true">👤</span>Quién soy
-</button>
-<button class="nav-btn" data-section="paliativos" aria-label="Cuidados Paliativos">
-<span class="nav-icon" aria-hidden="true">💚</span>Paliativos
-</button>
-<button class="nav-btn" data-section="medicina-general" aria-label="Medicina General y Familiar">
-<span class="nav-icon" aria-hidden="true">🏥</span>Med. General
-</button>
-<button class="nav-btn" data-section="contacto" aria-label="Contacto">
-<span class="nav-icon" aria-hidden="true">📞</span>Contacto
-</button>
-</nav>
-<!-- ═══ CONTENT ════════════════════════════════════════════ -->
-<main>
-<!-- QUIÉN SOY -->
-<section id="quien-soy" class="section active">
-<h2 class="section-title">¿Quién soy?<span></span></h2>
-<div class="profile-card">
-<div class="profile-tag">Mi enfoque</div>
-<p>Acompañar a las personas y sus familias con humanidad, respeto y profesionalismo, buscando siempre la mejor calidad de vida posible.</p>
-</div>
-<p>Soy <strong>Leandro Antonielli</strong>, médico formado en la <strong>Universidad de Buenos Aires</strong>. Me especialicé en <strong>Medicina General y Familiar</strong> en el CeSAC 24 del Hospital Piñero y realicé un posgrado en <strong>Cuidados Paliativos</strong> en FLACSO.</p>
-<p>Actualmente trabajo como médico generalista en el <strong>CeSAC 24</strong>, a domicilio y por videollamada, y además me dedico a los <strong>cuidados paliativos en domicilio</strong> y en <strong>atención virtual por videollamada</strong>.</p>
-<div class="info-chips">
-<span class="chip">🏥 CeSAC 24 · Hospital Piñero</span>
-<span class="chip">🏠 Domicilio</span>
-<span class="chip">📹 Videollamada</span>
-<span class="chip">🎓 FLACSO Paliativos</span>
-<span class="chip">🎓 UBA</span>
-</div>
-</section>
-<!-- CUIDADOS PALIATIVOS (con tabs internos) -->
-<section id="paliativos" class="section">
-<h2 class="section-title">Cuidados Paliativos<span></span></h2>
-<!-- Servicio badge -->
-<div class="service-badge">
-<span class="badge-icon">💚</span>
-<div>
-<strong>Servicio disponible</strong>
-<span>A domicilio · Por videollamada</span>
-</div>
-</div>
-<!-- Tabs navigation -->
-<div class="tabs-nav" role="tablist">
-<button class="tab-btn active" data-tab="que-son" aria-label="¿Qué son?">
-<span class="tab-icon" aria-hidden="true">💡</span>¿Qué son?
-</button>
-<button class="tab-btn" data-tab="a-quienes" aria-label="¿A quiénes están dirigidos?">
-<span class="tab-icon" aria-hidden="true">👥</span>¿A quiénes?
-</button>
-<button class="tab-btn" data-tab="que-hacemos" aria-label="¿Qué hacemos?">
-<span class="tab-icon" aria-hidden="true">🩺</span>¿Qué hacemos?
-</button>
-</div>
-<!-- Tab: ¿Qué son? -->
-<div class="tab-panel active" id="tab-que-son">
-<p>Los cuidados paliativos son una forma de <strong>acompañar y cuidar</strong> a las personas que atraviesan una enfermedad grave, avanzada o que pone en riesgo su vida. La idea central es simple: <strong>mejorar la calidad de vida</strong> del paciente y de su familia.</p>
-<div class="callout">
-<div class="callout-icon">💡</div>
-<p><strong>Idea clave:</strong> Muchas veces se confunde "cuidados paliativos" con "ya no hay nada por hacer". Eso no es así. No son rendirse: son otra forma de cuidar, poniendo el foco en el bienestar, el confort y la dignidad de la persona.</p>
-</div>
-<p>Los cuidados paliativos <strong>no aceleran ni postergan la muerte</strong>. Acompañan el proceso con respeto y humanidad. Se pueden iniciar <strong>en cualquier momento</strong> de la enfermedad, incluso junto a otros tratamientos curativos.</p>
-<div class="callout callout-cta" style="margin-top:1.5rem;">
-<p>¿Tenés dudas o querés consultar un caso?</p>
-<a href="https://wa.me/5491130201708" target="_blank" class="cta-wa-btn">
-<span class="cta-icon">💬</span> Escribime por WhatsApp
-</a>
-</div>
-</div>
-<!-- Tab: ¿A quiénes? -->
-<div class="tab-panel" id="tab-a-quienes">
-<p>A <strong>personas de cualquier edad</strong> que atraviesen una enfermedad grave, avanzada o con riesgo de vida, y también a sus familias y personas cercanas.</p>
-<ul>
-<li><strong>Cáncer</strong> avanzado o sin respuesta al tratamiento.</li>
-<li><strong>Insuficiencias</strong> cardíaca, renal, respiratoria o hepática en etapas avanzadas.</li>
-<li><strong>Enfermedades neurodegenerativas</strong> como Alzheimer, Parkinson o ELA.</li>
-<li><strong>SIDA</strong> en etapas avanzadas.</li>
-<li>Otras <strong>enfermedades crónicas complejas</strong> con gran impacto en la calidad de vida.</li>
-</ul>
-<div class="callout">
-<div class="callout-icon">👨‍👩‍👧</div>
-<p><strong>Importante:</strong> No se cuida solo al paciente. Se cuida también a la familia, a los cuidadores, a quienes acompañan. Ellos también necesitan apoyo, información y contención.</p>
-</div>
-<div class="callout callout-cta" style="margin-top:1.5rem;">
-<p>¿Tenés dudas o querés consultar un caso?</p>
-<a href="https://wa.me/5491130201708" target="_blank" class="cta-wa-btn">
-<span class="cta-icon">💬</span> Escribime por WhatsApp
-</a>
-</div>
-</div>
-<!-- Tab: ¿Qué hacemos? -->
-<div class="tab-panel" id="tab-que-hacemos">
-<p>Nuestra tarea va mucho más allá de recetar medicamentos. Acompañamos de forma <strong>integral</strong>, cuidando el cuerpo, las emociones y las decisiones.</p>
-<div class="cards-grid">
-<div class="card">
-<div class="card-icon">🩹</div>
-<div class="card-body">
-<h4>Control del dolor y los síntomas</h4>
-<p>Aliviamos el dolor físico, la falta de aire, las náuseas, el insomnio y la ansiedad.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">💬</div>
-<div class="card-body">
-<h4>Comunicación clara y honesta</h4>
-<p>Acompañamos en las conversaciones difíciles: pronóstico, miedos, decisiones.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🤝</div>
-<div class="card-body">
-<h4>Acompañamiento humano</h4>
-<p>Escuchamos, contenemos y respetamos los tiempos y las emociones de cada persona.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🏠</div>
-<div class="card-body">
-<h4>Atención en domicilio</h4>
-<p>Si el paciente quiere estar en su casa, lo ayudamos a lograrlo. Evaluamos el entorno y capacitamos a la familia.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">📝</div>
-<div class="card-body">
-<h4>Apoyo en la toma de decisiones</h4>
-<p>Ayudamos al paciente a expresar su voluntad y respetamos su autonomía siempre.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">💙</div>
-<div class="card-body">
-<h4>Acompañamiento en el duelo</h4>
-<p>El cuidado no termina con el fallecimiento. Seguimos cerca de la familia.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-cta" style="margin-top:1.5rem;">
-<p>¿Tenés dudas o querés consultar un caso?</p>
-<a href="https://wa.me/5491130201708" target="_blank" class="cta-wa-btn">
-<span class="cta-icon">💬</span> Escribime por WhatsApp
-</a>
-</div>
-</div>
-</section>
-<!-- MEDICINA GENERAL Y FAMILIAR -->
-<section id="medicina-general" class="section">
-<h2 class="section-title">Medicina General y Familiar<span></span></h2>
-<!-- Servicio badge -->
-<div class="service-badge">
-<span class="badge-icon">🏥</span>
-<div>
-<strong>Servicio disponible</strong>
-<span>A domicilio · Por videollamada</span>
-</div>
-</div>
-<div class="profile-card">
-<div class="profile-tag">Para toda la familia</div>
-<p>La Medicina General y Familiar cuida a las personas durante <strong>todas las etapas de la vida</strong>, con continuidad en el tiempo y una mirada que va más allá del síntoma: incorpora la historia, la familia, el contexto y los determinantes sociales de cada persona.</p>
-</div>
-<p>No es solo "el médico de cabecera". Es una especialidad que trabaja con <strong>toda la trama de la vida</strong> de una persona, articulando recursos del sistema de salud, la comunidad y la familia para un cuidado verdaderamente integral.</p>
-<div class="valores-grid">
-<div class="valor-item">
-<div class="valor-icon">⚖️</div>
-<strong>Equidad y derecho a la salud</strong>
-<p>Cuidado accesible para todas las personas, reconociendo las desigualdades que afectan la salud.</p>
-</div>
-<div class="valor-item">
-<div class="valor-icon">🔍</div>
-<strong>Clínica ampliada</strong>
-<p>No solo el diagnóstico: el contexto vital, la familia y el entorno. La persona completa, en su singularidad.</p>
-</div>
-<div class="valor-item">
-<div class="valor-icon">🔄</div>
-<strong>Continuidad en el tiempo</strong>
-<p>Seguimiento longitudinal a lo largo de los años, no consultas aisladas. Alguien que te conoce.</p>
-</div>
-<div class="valor-item">
-<div class="valor-icon">🤝</div>
-<strong>Trabajo en red</strong>
-<p>Articulación con especialistas, equipos de salud y recursos comunitarios para una atención sin baches.</p>
-</div>
-</div>
-<div class="info-chips">
-<span class="chip">👶 Niños y niñas</span>
-<span class="chip">🤰 Embarazadas</span>
-<span class="chip">🌸 Salud sexual y ginecológica</span>
-<span class="chip">🧑 Adultos</span>
-<span class="chip">👴 Adultos mayores</span>
-<span class="chip">🏠 Domicilio</span>
-<span class="chip">📹 Videollamada</span>
-</div>
-<h3>¿Qué incluye la atención?</h3>
-<div class="cards-grid">
-<div class="card">
-<div class="card-icon">👶</div>
-<div class="card-body">
-<h4>Pediatría y control del niño sano</h4>
-<p>Seguimiento del crecimiento y desarrollo, vacunas, consultas frecuentes y orientación a la familia.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🤰</div>
-<div class="card-body">
-<h4>Control de embarazo</h4>
-<p>Acompañamiento durante la gestación, coordinación con obstetras y preparación para el parto y el puerperio.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🌸</div>
-<div class="card-body">
-<h4>Salud sexual y reproductiva</h4>
-<p>Anticoncepción, ITS, papanicolaou, menopausia y acompañamiento integral de la salud ginecológica.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">💊</div>
-<div class="card-body">
-<h4>Enfermedades crónicas</h4>
-<p>Seguimiento de diabetes, hipertensión, dislipemia, tiroides, EPOC y otras condiciones a lo largo del tiempo.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🔬</div>
-<div class="card-body">
-<h4>Prevención y chequeos</h4>
-<p>Controles periódicos, solicitud de estudios, interpretación de resultados y planes de prevención personalizados.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">👴</div>
-<div class="card-body">
-<h4>Adultos mayores</h4>
-<p>Valoración integral, polifarmacia, caídas, cognición y coordinación con cuidadores y familia.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🧠</div>
-<div class="card-body">
-<h4>Salud mental y emocional</h4>
-<p>Primera escucha, manejo de ansiedad, depresión e insomnio, y articulación con salud mental cuando se necesita.</p>
-</div>
-</div>
-<div class="card">
-<div class="card-icon">🔗</div>
-<div class="card-body">
-<h4>Coordinación con especialistas</h4>
-<p>Indicación, derivación y seguimiento de interconsultas, para que nada quede sin resolución.</p>
-</div>
-</div>
-</div>
-<div class="callout" style="margin-top: 1.5rem;">
-<div class="callout-icon">💡</div>
-<p>El médico generalista no reemplaza a los especialistas: los <strong>articula y acompaña</strong>. Conoce tu historia, tu familia y tu contexto. Eso hace la diferencia.</p>
-</div>
-<div class="callout callout-cta" style="margin-top:1rem;">
-<p>¿Querés arrancar con un seguimiento para vos o tu familia?</p>
-<a href="https://wa.me/5491130201708" target="_blank" class="cta-wa-btn">
-<span class="cta-icon">💬</span> Escribime por WhatsApp
-</a>
-</div>
-</section>
-<!-- CONTACTO -->
-<section id="contacto" class="section">
-<h2 class="section-title">Contacto<span></span></h2>
-<p>Si querés consultar, hacer una interconsulta o saber más, podés comunicarte por cualquiera de estos medios:</p>
-<div class="contact-stack">
-<a href="https://wa.me/5491130201708" target="_blank" class="contact-btn primary">
-<div class="cb-icon">💬</div>
-<div class="cb-body">
-<strong>WhatsApp</strong>
-<span>+54 11 3020-1708</span>
-</div>
-</a>
-<a href="mailto:leandroantonielli@gmail.com" class="contact-btn">
-<div class="cb-icon cb-blue">📧</div>
-<div class="cb-body">
-<strong>Email</strong>
-<span>leandroantonielli@gmail.com</span>
-</div>
-</a>
-<a href="https://maps.app.goo.gl/qdnY6sTCn13JsGTP8" target="_blank" class="contact-btn">
-<div class="cb-icon cb-amber">📍</div>
-<div class="cb-body">
-<strong>Ubicación</strong>
-<span>Ver en Google Maps</span>
-</div>
-</a>
-</div>
-</section>
-</main>
-<footer>
-<p><strong>Dr. Leandro Antonielli</strong> · MN 166947</p>
-<p>Médico Especialista en Medicina General y Familiar · Cuidados Paliativos</p>
-<p style="margin-top:0.5rem; font-size:0.78rem;">Acompañamiento integral con humanidad y profesionalismo</p>
-</footer>
-<script>
-// Navegación principal
-const buttons  = document.querySelectorAll('.nav-btn');
-const sections = document.querySelectorAll('.section');
-buttons.forEach(btn => {
-btn.addEventListener('click', () => {
-const target = btn.getAttribute('data-section');
-buttons.forEach(b  => b.classList.remove('active'));
-sections.forEach(s => s.classList.remove('active'));
-btn.classList.add('active');
-document.getElementById(target).classList.add('active');
-window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-});
+<a class="skip-link" href="#contenido">Ir al contenido</a>
 
-// Tabs internos de Cuidados Paliativos
-const tabBtns   = document.querySelectorAll('.tab-btn');
-const tabPanels = document.querySelectorAll('.tab-panel');
-tabBtns.forEach(btn => {
-btn.addEventListener('click', () => {
-const target = btn.getAttribute('data-tab');
-tabBtns.forEach(b   => b.classList.remove('active'));
-tabPanels.forEach(p => p.classList.remove('active'));
-btn.classList.add('active');
-document.getElementById('tab-' + target).classList.add('active');
-});
-});
+<!-- ═══ HERO ═══════════════════════════════════════════════ -->
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="avatar">
+      <!-- REEMPLAZAR por foto profesional: img/leandro.jpg (retrato ~800px, recorte circular). El archivo actual es un placeholder con iniciales. -->
+      <img src="img/leandro.jpg" width="168" height="168" alt="Dr. Leandro Antonielli, médico de familia y cuidados paliativos">
+    </div>
+    <div class="hero-copy">
+      <p class="hero-eyebrow">Médico · Buenos Aires</p>
+      <h1>Dr. Leandro Antonielli</h1>
+      <p class="hero-subtitle">Medicina General y Familiar · Cuidados Paliativos</p>
+      <p class="hero-line">Atención a domicilio en CABA y por videollamada</p>
+      <p class="hero-matricula">MN 166947</p>
+      <p class="coverage-chip">CABA · domicilio y videollamada · video en todo el país</p>
+      <div class="hero-actions">
+        <a class="btn-wa" href="https://wa.me/5491130201708?text=Hola%20Dr.%20Antonielli%2C%20quiero%20consultar%20por%20un%20turno.%20Les%20cuento%20brevemente%20el%20motivo%3A" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Escribime por WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ NAV ════════════════════════════════════════════════ -->
+<nav class="site-nav" aria-label="Secciones del sitio">
+  <a class="nav-btn" href="#quien-soy" data-section="quien-soy">
+    <span class="nav-icon" aria-hidden="true">👤</span>
+    <span class="nav-label-sm">Quién soy</span>
+    <span class="nav-label-lg">Quién soy</span>
+  </a>
+  <a class="nav-btn" href="#paliativos" data-section="paliativos">
+    <span class="nav-icon" aria-hidden="true">💚</span>
+    <span class="nav-label-sm">Paliativos</span>
+    <span class="nav-label-lg">Cuidados Paliativos</span>
+  </a>
+  <a class="nav-btn" href="#medicina-general" data-section="medicina-general">
+    <span class="nav-icon" aria-hidden="true">🏥</span>
+    <span class="nav-label-sm">General</span>
+    <span class="nav-label-lg">Medicina General</span>
+  </a>
+  <a class="nav-btn" href="#como-consultar" data-section="como-consultar">
+    <span class="nav-icon" aria-hidden="true">📋</span>
+    <span class="nav-label-sm">Consulta</span>
+    <span class="nav-label-lg">Cómo consultar</span>
+  </a>
+  <a class="nav-btn" href="#contacto" data-section="contacto">
+    <span class="nav-icon" aria-hidden="true">📞</span>
+    <span class="nav-label-sm">Contacto</span>
+    <span class="nav-label-lg">Contacto</span>
+  </a>
+</nav>
+
+<main id="contenido">
+
+<!-- QUIÉN SOY -->
+<section id="quien-soy" class="section" aria-labelledby="tit-quien">
+  <div class="wrap">
+    <h2 class="section-title" id="tit-quien">¿Quién soy?<span></span></h2>
+    <div class="profile-card">
+      <div class="profile-tag">Mi enfoque</div>
+      <p>Acompañar a las personas y sus familias con humanidad, respeto y profesionalismo, buscando siempre la mejor calidad de vida posible.</p>
+    </div>
+    <div class="prose">
+      <p>Soy <strong>Leandro Antonielli</strong>, médico formado en la <strong>Universidad de Buenos Aires</strong>. Me especialicé en <strong>Medicina General y Familiar</strong> en el CeSAC 24 del Hospital Piñero y realicé un posgrado en <strong>Cuidados Paliativos</strong> en FLACSO.</p>
+      <p>Actualmente trabajo como médico generalista en el <strong>CeSAC 24</strong>, a domicilio y por videollamada, y además me dedico a los <strong>cuidados paliativos en domicilio</strong> y en <strong>atención virtual por videollamada</strong>.</p>
+    </div>
+    <div class="info-chips">
+      <span class="chip"><span aria-hidden="true">🏥 </span>CeSAC 24 · Hospital Piñero</span>
+      <span class="chip"><span aria-hidden="true">🏠 </span>Domicilio</span>
+      <span class="chip"><span aria-hidden="true">📹 </span>Videollamada</span>
+      <span class="chip"><span aria-hidden="true">🎓 </span>FLACSO Paliativos</span>
+      <span class="chip"><span aria-hidden="true">🎓 </span>UBA</span>
+    </div>
+  </div>
+</section>
+
+<!-- CUIDADOS PALIATIVOS -->
+<section id="paliativos" class="section alt" aria-labelledby="tit-pal">
+  <div class="wrap">
+    <h2 class="section-title" id="tit-pal">Cuidados Paliativos<span></span></h2>
+    <div class="service-badge">
+      <span class="badge-icon" aria-hidden="true">💚</span>
+      <div>
+        <strong>Servicio disponible · A domicilio · Por videollamada</strong>
+        <span>Acompañamiento al paciente y a la familia, en casa o por video.</span>
+      </div>
+    </div>
+
+    <div class="tabs-nav" aria-label="Temas de cuidados paliativos">
+      <a class="tab-link" href="#que-son"><span aria-hidden="true">💡 </span>¿Qué son?</a>
+      <a class="tab-link" href="#a-quienes"><span aria-hidden="true">👥 </span>¿A quiénes?</a>
+      <a class="tab-link" href="#que-hacemos"><span aria-hidden="true">🩺 </span>¿Qué hacemos?</a>
+    </div>
+
+    <article class="pal-block prose" id="que-son">
+      <h3>¿Qué son?</h3>
+      <p>Los cuidados paliativos son una forma de <strong>acompañar y cuidar</strong> a las personas que atraviesan una enfermedad grave, avanzada o que pone en riesgo su vida. La idea central es simple: <strong>mejorar la calidad de vida</strong> del paciente y de su familia.</p>
+      <div class="callout">
+        <div class="callout-icon" aria-hidden="true">💡</div>
+        <p><strong>Idea clave:</strong> Muchas veces se confunde “cuidados paliativos” con “ya no hay nada por hacer”. Eso no es así. No son rendirse: son otra forma de cuidar, poniendo el foco en el bienestar, el confort y la dignidad de la persona.</p>
+      </div>
+      <p>Los cuidados paliativos <strong>no aceleran ni postergan la muerte</strong>. Acompañan el proceso con respeto y humanidad. Se pueden iniciar <strong>en cualquier momento</strong> de la enfermedad, incluso junto a otros tratamientos curativos.</p>
+    </article>
+
+    <article class="pal-block prose" id="a-quienes">
+      <h3>¿A quiénes están dirigidos?</h3>
+      <p>A <strong>personas de cualquier edad</strong> que atraviesen una enfermedad grave, avanzada o con riesgo de vida, y también a sus familias y personas cercanas.</p>
+      <ul>
+        <li><strong>Cáncer</strong> avanzado o sin respuesta al tratamiento.</li>
+        <li><strong>Insuficiencias</strong> cardíaca, renal, respiratoria o hepática en etapas avanzadas.</li>
+        <li><strong>Enfermedades neurodegenerativas</strong> como Alzheimer, Parkinson o ELA.</li>
+        <li><strong>SIDA</strong> en etapas avanzadas.</li>
+        <li>Otras <strong>enfermedades crónicas complejas</strong> con gran impacto en la calidad de vida.</li>
+      </ul>
+      <div class="callout">
+        <div class="callout-icon" aria-hidden="true">👨‍👩‍👧</div>
+        <p><strong>Importante:</strong> No se cuida solo al paciente. Se cuida también a la familia, a los cuidadores, a quienes acompañan. Ellos también necesitan apoyo, información y contención.</p>
+      </div>
+    </article>
+
+    <article class="pal-block" id="que-hacemos">
+      <h3>¿Qué hacemos?</h3>
+      <p class="lead">Nuestra tarea va mucho más allá de recetar medicamentos. Acompañamos de forma <strong>integral</strong>, cuidando el cuerpo, las emociones y las decisiones.</p>
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🩹</div>
+          <div class="card-body">
+            <h4>Control del dolor y los síntomas</h4>
+            <p>Aliviamos el dolor físico, la falta de aire, las náuseas, el insomnio y la ansiedad.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">💬</div>
+          <div class="card-body">
+            <h4>Comunicación clara y honesta</h4>
+            <p>Acompañamos en las conversaciones difíciles: pronóstico, miedos, decisiones.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🤝</div>
+          <div class="card-body">
+            <h4>Acompañamiento humano</h4>
+            <p>Escuchamos, contenemos y respetamos los tiempos y las emociones de cada persona.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🏠</div>
+          <div class="card-body">
+            <h4>Atención en domicilio</h4>
+            <p>Si el paciente quiere estar en su casa, lo ayudamos a lograrlo. Evaluamos el entorno y capacitamos a la familia.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">📝</div>
+          <div class="card-body">
+            <h4>Apoyo en la toma de decisiones</h4>
+            <p>Ayudamos al paciente a expresar su voluntad y respetamos su autonomía siempre.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">💙</div>
+          <div class="card-body">
+            <h4>Acompañamiento en el duelo</h4>
+            <p>El cuidado no termina con el fallecimiento. Seguimos cerca de la familia.</p>
+          </div>
+        </article>
+      </div>
+    </article>
+
+    <div class="callout callout-cta" style="margin-top:1.5rem;">
+      <p>¿Tenés dudas o querés consultar un caso?</p>
+      <a class="btn-wa btn-wa-solid" href="https://wa.me/5491130201708?text=Hola%20Dr.%20Antonielli%2C%20quiero%20consultar%20por%20cuidados%20paliativos%20%28paciente%20%2F%20familia%29.%20Les%20cuento%20la%20situaci%C3%B3n%3A" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Escribime por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- MEDICINA GENERAL -->
+<section id="medicina-general" class="section" aria-labelledby="tit-mg">
+  <div class="wrap">
+    <h2 class="section-title" id="tit-mg">Medicina General y Familiar<span></span></h2>
+    <div class="service-badge">
+      <span class="badge-icon" aria-hidden="true">🏥</span>
+      <div>
+        <strong>Servicio disponible</strong>
+        <span>A domicilio · Por videollamada</span>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="profile-tag">Para toda la familia</div>
+      <p>La Medicina General y Familiar cuida a las personas durante <strong>todas las etapas de la vida</strong>, con continuidad en el tiempo y una mirada que va más allá del síntoma: incorpora la historia, la familia, el contexto y los determinantes sociales de cada persona.</p>
+    </div>
+    <div class="prose">
+      <p>No es solo “el médico de cabecera”. Es una especialidad que trabaja con <strong>toda la trama de la vida</strong> de una persona, articulando recursos del sistema de salud, la comunidad y la familia para un cuidado verdaderamente integral.</p>
+    </div>
+    <div class="valores-grid">
+      <div class="valor-item">
+        <div class="valor-icon" aria-hidden="true">⚖️</div>
+        <strong>Equidad y derecho a la salud</strong>
+        <p>Cuidado accesible para todas las personas, reconociendo las desigualdades que afectan la salud.</p>
+      </div>
+      <div class="valor-item">
+        <div class="valor-icon" aria-hidden="true">🔍</div>
+        <strong>Clínica ampliada</strong>
+        <p>No solo el diagnóstico: el contexto vital, la familia y el entorno. La persona completa, en su singularidad.</p>
+      </div>
+      <div class="valor-item">
+        <div class="valor-icon" aria-hidden="true">🔄</div>
+        <strong>Continuidad en el tiempo</strong>
+        <p>Seguimiento longitudinal a lo largo de los años, no consultas aisladas. Alguien que te conoce.</p>
+      </div>
+      <div class="valor-item">
+        <div class="valor-icon" aria-hidden="true">🤝</div>
+        <strong>Trabajo en red</strong>
+        <p>Articulación con especialistas, equipos de salud y recursos comunitarios para una atención sin baches.</p>
+      </div>
+    </div>
+    <div class="info-chips">
+      <span class="chip"><span aria-hidden="true">👶 </span>Niños y niñas</span>
+      <span class="chip"><span aria-hidden="true">🤰 </span>Embarazadas</span>
+      <span class="chip"><span aria-hidden="true">🌸 </span>Salud sexual y ginecológica</span>
+      <span class="chip"><span aria-hidden="true">🧑 </span>Adultos</span>
+      <span class="chip"><span aria-hidden="true">👴 </span>Adultos mayores</span>
+      <span class="chip"><span aria-hidden="true">🏠 </span>Domicilio</span>
+      <span class="chip"><span aria-hidden="true">📹 </span>Videollamada</span>
+    </div>
+    <h3>¿Qué incluye la atención?</h3>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">👶</div>
+        <div class="card-body">
+          <h4>Pediatría y control del niño sano</h4>
+          <p>Seguimiento del crecimiento y desarrollo, vacunas, consultas frecuentes y orientación a la familia.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🤰</div>
+        <div class="card-body">
+          <h4>Control de embarazo</h4>
+          <p>Acompañamiento durante la gestación, coordinación con obstetras y preparación para el parto y el puerperio.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🌸</div>
+        <div class="card-body">
+          <h4>Salud sexual y reproductiva</h4>
+          <p>Anticoncepción, ITS, papanicolaou, menopausia y acompañamiento integral de la salud ginecológica.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">💊</div>
+        <div class="card-body">
+          <h4>Enfermedades crónicas</h4>
+          <p>Seguimiento de diabetes, hipertensión, dislipemia, tiroides, EPOC y otras condiciones a lo largo del tiempo.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🔬</div>
+        <div class="card-body">
+          <h4>Prevención y chequeos</h4>
+          <p>Controles periódicos, solicitud de estudios, interpretación de resultados y planes de prevención personalizados.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">👴</div>
+        <div class="card-body">
+          <h4>Adultos mayores</h4>
+          <p>Valoración integral, polifarmacia, caídas, cognición y coordinación con cuidadores y familia.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🧠</div>
+        <div class="card-body">
+          <h4>Salud mental y emocional</h4>
+          <p>Primera escucha, manejo de ansiedad, depresión e insomnio, y articulación con salud mental cuando se necesita.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="card-icon" aria-hidden="true">🔗</div>
+        <div class="card-body">
+          <h4>Coordinación con especialistas</h4>
+          <p>Indicación, derivación y seguimiento de interconsultas, para que nada quede sin resolución.</p>
+        </div>
+      </article>
+    </div>
+    <div class="callout" style="margin-top:1.5rem;">
+      <div class="callout-icon" aria-hidden="true">💡</div>
+      <p>El médico generalista no reemplaza a los especialistas: los <strong>articula y acompaña</strong>. Conoce tu historia, tu familia y tu contexto. Eso hace la diferencia.</p>
+    </div>
+    <div class="callout callout-cta" style="margin-top:1rem;">
+      <p>¿Querés arrancar con un seguimiento para vos o tu familia?</p>
+      <a class="btn-wa btn-wa-solid" href="https://wa.me/5491130201708?text=Hola%20Dr.%20Antonielli%2C%20quiero%20consultar%20por%20medicina%20general%20y%20familiar.%20El%20motivo%20es%3A" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Escribime por WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO ES LA CONSULTA -->
+<section id="como-consultar" class="section alt" aria-labelledby="tit-consulta">
+  <div class="wrap">
+    <p class="section-kicker">Primer contacto</p>
+    <h2 class="section-title" id="tit-consulta">Cómo es la consulta<span></span></h2>
+    <p class="lead">Sin formularios ni turnero online. Arrancamos por un mensaje, con calma.</p>
+    <ol class="steps">
+      <li>
+        <span class="step-num" aria-hidden="true">1</span>
+        <div>
+          <h3>Escribís por WhatsApp</h3>
+          <p>Contame quién consulta y el motivo, aunque sea en tres líneas.</p>
+        </div>
+      </li>
+      <li>
+        <span class="step-num" aria-hidden="true">2</span>
+        <div>
+          <h3>Coordinamos videollamada o domicilio</h3>
+          <p>Según el caso y el barrio, armamos un horario de video o de visita en CABA.</p>
+        </div>
+      </li>
+      <li>
+        <span class="step-num" aria-hidden="true">3</span>
+        <div>
+          <h3>Armamos un plan de cuidado</h3>
+          <p>Prioridades, síntomas, estudios y cómo seguir. En lenguaje claro, para vos y la familia.</p>
+        </div>
+      </li>
+      <li>
+        <span class="step-num" aria-hidden="true">4</span>
+        <div>
+          <h3>Seguimiento</h3>
+          <p>No queda en una sola consulta. Ajustamos el plan y coordinamos con otros equipos si hace falta.</p>
+        </div>
+      </li>
+    </ol>
+    <p class="honorarios">Honorarios y cobertura se conversan en el primer contacto. Particular. Consultá si tu obra social o prepaga reconoce la prestación.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="preguntas-frecuentes" class="section" aria-labelledby="tit-faq">
+  <div class="wrap">
+    <h2 class="section-title" id="tit-faq">Preguntas frecuentes<span></span></h2>
+    <div class="faq-list">
+      <details class="faq">
+        <summary>¿Los cuidados paliativos son solo al final de la vida?</summary>
+        <p class="faq-a">No. Se pueden iniciar en cualquier momento de una enfermedad grave, incluso junto a tratamientos curativos. El foco es calidad de vida, confort y dignidad.</p>
+      </details>
+      <details class="faq">
+        <summary>¿Vas a domicilio? ¿En qué zona?</summary>
+        <p class="faq-a">Atención a domicilio en CABA; la cobertura exacta se confirma por WhatsApp según barrio. También atención por videollamada en todo el país.</p>
+      </details>
+      <details class="faq">
+        <summary>¿Atienden niños / toda la familia?</summary>
+        <p class="faq-a">Sí, como médico de familia: control de niño sano, embarazo, adultos, personas mayores y coordinación con especialistas.</p>
+      </details>
+      <details class="faq">
+        <summary>¿Cómo se agenda un primer contacto?</summary>
+        <p class="faq-a">Por WhatsApp. Coordinamos horario de video o visita.</p>
+      </details>
+      <details class="faq">
+        <summary>¿Hace falta derivación?</summary>
+        <p class="faq-a">No es indispensable. Sirve si hay informes, estudios o un equipo de cabecera.</p>
+      </details>
+      <details class="faq">
+        <summary>Esta web, ¿reemplaza una consulta?</summary>
+        <p class="faq-a">No. Es información y una vía de contacto. Toda indicación se da en consulta.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section alt" aria-labelledby="tit-contacto">
+  <div class="wrap">
+    <h2 class="section-title" id="tit-contacto">Contacto<span></span></h2>
+    <p class="lead">Si querés consultar, hacer una interconsulta o saber más, escribime. Respondo personalmente.</p>
+    <div class="contact-stack">
+      <a href="https://wa.me/5491130201708?text=Hola%20Dr.%20Antonielli%2C%20quiero%20consultar%20por%20un%20turno.%20Les%20cuento%20brevemente%20el%20motivo%3A" target="_blank" rel="noopener noreferrer" class="contact-btn primary">
+        <div class="cb-icon" aria-hidden="true">💬</div>
+        <div class="cb-body">
+          <strong>WhatsApp</strong>
+          <span>+54 9 11 3020-1708</span>
+        </div>
+      </a>
+      <a href="mailto:leandroantonielli@gmail.com" class="contact-btn">
+        <div class="cb-icon" aria-hidden="true">📧</div>
+        <div class="cb-body">
+          <strong>Email</strong>
+          <span>leandroantonielli@gmail.com</span>
+        </div>
+      </a>
+      <a href="https://maps.app.goo.gl/qdnY6sTCn13JsGTP8" target="_blank" rel="noopener noreferrer" class="contact-btn">
+        <div class="cb-icon cb-amber" aria-hidden="true">📍</div>
+        <div class="cb-body">
+          <strong>Domicilio en CABA · consultar barrio</strong>
+          <span>Abrir en Google Maps</span>
+        </div>
+      </a>
+    </div>
+    <p class="video-line">Videollamada en todo el país.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p><strong>Dr. Leandro Antonielli</strong> · MN 166947</p>
+  <p>Medicina General y Familiar · Cuidados Paliativos</p>
+  <p class="legal">Esta página no reemplaza una consulta médica.</p>
+  <p class="legal">© 2026</p>
+</footer>
+
+<a class="fab" href="https://wa.me/5491130201708?text=Hola%20Dr.%20Antonielli%2C%20quiero%20consultar%20por%20un%20turno.%20Les%20cuento%20brevemente%20el%20motivo%3A" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+(function () {
+  var navLinks = document.querySelectorAll(".site-nav .nav-btn");
+  var tabLinks = document.querySelectorAll(".tab-link");
+  var sectionIds = ["quien-soy", "paliativos", "medicina-general", "como-consultar", "contacto"];
+  var palIds = ["que-son", "a-quienes", "que-hacemos"];
+
+  function setCurrent(id) {
+    navLinks.forEach(function (link) {
+      var on = link.getAttribute("data-section") === id;
+      if (on) link.setAttribute("aria-current", "true");
+      else link.removeAttribute("aria-current");
+    });
+  }
+
+  function setPalTab(id) {
+    tabLinks.forEach(function (link) {
+      var href = link.getAttribute("href") || "";
+      link.classList.toggle("is-active", href === "#" + id);
+    });
+  }
+
+  function idFromHash() {
+    var raw = (location.hash || "").replace("#", "");
+    if (sectionIds.indexOf(raw) !== -1) return raw;
+    if (palIds.indexOf(raw) !== -1) return "paliativos";
+    if (raw === "preguntas-frecuentes") return "como-consultar";
+    return "";
+  }
+
+  function markerY() {
+    return window.matchMedia("(min-width: 700px)").matches ? 160 : 48;
+  }
+
+  var ignoreScroll = false;
+
+  function spy() {
+    var mark = markerY();
+    var active = sectionIds[0];
+    for (var i = 0; i < sectionIds.length; i++) {
+      var el = document.getElementById(sectionIds[i]);
+      if (!el) continue;
+      if (el.getBoundingClientRect().top - mark <= 0) active = sectionIds[i];
+    }
+    setCurrent(active);
+
+    var palActive = palIds[0];
+    for (var j = 0; j < palIds.length; j++) {
+      var p = document.getElementById(palIds[j]);
+      if (!p) continue;
+      if (p.getBoundingClientRect().top - mark <= 0) palActive = palIds[j];
+    }
+    setPalTab(palActive);
+  }
+
+  function jumpToHash() {
+    var raw = (location.hash || "").replace("#", "");
+    var target = raw ? document.getElementById(raw) : null;
+    ignoreScroll = true;
+    if (target) {
+      target.scrollIntoView({ block: "start", behavior: "instant" });
+    }
+    var id = idFromHash();
+    if (id) setCurrent(id);
+    else spy();
+    requestAnimationFrame(function () {
+      ignoreScroll = false;
+      if (id) setCurrent(id);
+      else spy();
+    });
+  }
+
+  setCurrent("quien-soy");
+  jumpToHash();
+  window.addEventListener("load", jumpToHash);
+  window.addEventListener("scroll", function () {
+    if (!ignoreScroll) spy();
+  }, { passive: true });
+  window.addEventListener("resize", spy);
+  window.addEventListener("hashchange", jumpToHash);
+})();
 </script>
 </body>
 </html>
